@@ -1,7 +1,10 @@
+/*Section to change page background, etc*/
+
 body {
 	background-color: lightgray;
 }
 
+/* This section contains various data that needs to be centered*/
 h1 {
 	text-align: center;
 }
@@ -10,18 +13,44 @@ h3 {
 	text-align: center;
 }
 
+li.center {
+	text-align: center;
+}
+
+table.center {
+	margin-left:auto;
+	margin-right: auto;
+}
+
+/*Oringally made the php files with both UL and OL lists, but as I researched code solutions I could have just made them all UL since I will be hiding the symbols. For the sake of being a lazy programmer... I am leaving them as both UL and OL and just adding to snippets of CSS to catch them both.*/
+
+ol.center {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.center {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*This section is used to accent my data table*/
+
 table th {
 	border-style: solid;
+	color: darkgrey;
+	font-size: larger;
 	border-color: black;
 	border-width: 2px;
-	background-color: #a1a493;
+	background-color: brown;
 }
 
 table td {
-	color: blue;
-	font-size: medium;
+	color: lightgray;
+	font-size: large;
 	border-style: solid;
 	border-color: black;
 	border-width: 2px;
-	background-color: black;
-}
+	background-color: black;  }

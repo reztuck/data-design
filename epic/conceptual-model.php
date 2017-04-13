@@ -7,21 +7,29 @@
 	</head>
 
 	<body>
-		<!--		 Contains the header and header description-->
+		<!--	Contains the header and header description-->
 		<h1>Bad Etsy Conceptual Model</h1>
-		<h2>Below is the interaction flow for my bad-etsy site.</h2>
+		<h3>Below is the interaction flow for my bad-etsy site.</h3>
+		<br>
 
-		<!--		Below is the relative data set for the conceptual model-->
-
-		<table>
+<!--		Below is the relative data set for the conceptual model-->
+<!--			These are the table headers used to name the columns-->
+		<table class="center">
 			<tr>
-				<th>Profile ID</th>
-				<th>Profile Location</th>
-				<th>Guest ID</th>
-				<th>Guest Location (IP data)</th>
-				<th>Item</th>
-				<th>Payment Method</th>
+				<th>profileID</th>
+				<th>profileLocation</th>
+				<th>guestID</th>
+				<th>guestipLocation</th>
+				<th>productID</th>
+				<th>paymentMethod</th>
+				<th>hashTagStayThirsty</th>
+				<th>saltID</th>
+				<th>productDescription</th>
+				<th>profileForeignkey</th>
+				<th>productForeignkey</th>
 			</tr>
+
+<!--			Table data that is sequentially populated into a row-cell relative to each header-->
 			<tr>
 				<td>null</td>
 				<td>null</td>
@@ -29,6 +37,12 @@
 				<td>Somewhere in Bermuda</td>
 				<td>Dios Equis</td>
 				<td>BTC</td>
+				<td>3FFA56735C67</td>
+				<td>2FA22D9B9FAA</td>
+				<td>Helps you stay thirsty</td>
+				<td>22CB83FB234B</td>
+				<td>BFEE78E98F20</td>
+				<td></td>
 			</tr>
 		</table>
 	</body>

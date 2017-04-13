@@ -13,7 +13,7 @@
 		<h3>Below is the use-case for my bad-etsy site.</h3>
 
 <!--		Below is the relative data for the use-case-->
-		<ol>
+		<ol class="center">
 			<li>Log into the site using Linux Mint</li>
 			<li>Search for Dos Equis as the product</li>
 			<li>Purchase the item via the checkout</li>
@@ -23,7 +23,7 @@
 		<!--		Below is the relative data for the interaction-flow-->
 		<br>
 		<h3>Interaction Flow</h3>
-		<ol>
+		<ol class="center">
 			<li>User navigates to the website</li>
 			<li>Website loads the store-front page</li>
 			<li>User inputs "Dos Equis" into the search field presents</li>
