@@ -9,6 +9,8 @@
 	<body>
 		<!--	Contains the header and header description-->
 		<h1>Bad Etsy Persona</h1>
+		<h3><a href="conceptual-model.php">Model</a> | <a href="persona.php">Persona</a> | <a href="use-case.php">Use-Case</a> | <a href="fun.php">Products</a></h3>
+		<br>
 		<h3>Persona for Jonathan Goldsmith.</h3>
 		<img class="center" src="../public_html/images/jonathangoldsmith.jpg" align="center">
 

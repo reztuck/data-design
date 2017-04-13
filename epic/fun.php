@@ -3,11 +3,11 @@
 
   <head>
     <meta charset="utf-8"/>
-    <title>Basic HTML Page</title>
+    <title>Bam!</title>
   </head>
-	<script src="../public_html/js/three.min.js"></script>
   <body>
-    <h1>Hello, World! :D</h1>
+    <h1>You got rolled!</h1>
+	  <img class="center" src="../public_html/images/giphy.gif">
   </body>
   
 </html>

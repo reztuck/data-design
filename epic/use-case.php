@@ -9,6 +9,7 @@
 	<body>
 <!--		 Contains the header and header description-->
 		<h1>Bad Etsy Use-Case</h1>
+		<h3><a href="conceptual-model.php">Model</a> | <a href="persona.php">Persona</a> | <a href="use-case.php">Use-Case</a> | <a href="fun.php">Products</a></h3>
 		<br>
 		<h3>Below is the use-case for my bad-etsy site.</h3>
 
