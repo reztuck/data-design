@@ -1,0 +1,27 @@
+body {
+	background-color: lightgray;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+table th {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	background-color: #a1a493;
+}
+
+table td {
+	color: blue;
+	font-size: medium;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	background-color: black;
+}

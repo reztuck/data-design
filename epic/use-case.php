@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<link href="/public_html/css/styles.css" rel="stylesheet">
+		<link rel="stylesheet" href="../public_html/styles.css" type="text/css">
 		<title>Bad Etsy Use Case</title>
 	</head>
 

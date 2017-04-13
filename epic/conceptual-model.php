@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<link href="/public_html/css/styles.css" rel="stylesheet">
+		<link rel="stylesheet" href="../public_html/styles.css" type="text/css">
 		<title>Bad Etsy Conceptual Model</title>
 	</head>
 
@@ -12,6 +12,7 @@
 		<h2>Below is the interaction flow for my bad-etsy site.</h2>
 
 		<!--		Below is the relative data set for the conceptual model-->
+
 		<table>
 			<tr>
 				<th>Profile ID</th>
@@ -20,11 +21,14 @@
 				<th>Guest Location (IP data)</th>
 				<th>Item</th>
 				<th>Payment Method</th>
-
 			</tr>
 			<tr>
-				<td>null, null, 72, somewhere in Bermuda, D</td>
-				<td></td>
+				<td>null</td>
+				<td>null</td>
+				<td>722</td>
+				<td>Somewhere in Bermuda</td>
+				<td>Dios Equis</td>
+				<td>BTC</td>
 			</tr>
 		</table>
 	</body>
