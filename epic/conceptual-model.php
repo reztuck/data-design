@@ -24,10 +24,7 @@
 				<th>profileLocation</th>
 				<th>profileHash_TagStayThirsty</th>
 				<th>profielSalt</th>
-				<th>profileForeignkey</th>
-				<th>guestID</th>
-				<th>guestipLocation</th>
-				<th>paymentMethod</th>
+				<th>profileEmail</th>
 			</tr>
 
 <!--			Table data that is sequentially populated into a row-cell relative to each header-->
@@ -37,10 +34,7 @@
 				<td>Somewhere in Bermuda</td>
 				<td>3FFA56735C67</td>
 				<td>2FA22D9B9FAA</td>
-				<td>22CB83FB234B</td>
-				<td>null</td>
-				<td>null</td>
-				<td>BTC</td>
+				<td>fuzzychest10@yahoo.com</td>
 				<td></td>
 			</tr>
 		</table>
@@ -51,15 +45,15 @@
 		<table class="center">
 			<tr>
 				<th>productDescription</th>
-				<th>productForeignkey</th>
 				<th>productID</th>
+				<th>productPrice</th>
 			</tr>
 
 			<!--			Table data that is sequentially populated into a row-cell relative to each header-->
 			<tr>
 				<td>Helps you stay thirsty</td>
-				<td>BFEE78E98F20</td>
 				<td>Dos Equis</td>
+				<td>$777.77</td>
 				<td></td>
 			</tr>
 		</table>
