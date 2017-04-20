@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="utf-8"/>
-    <title>Bam!</title>
-  </head>
-  <body>
-    <h1>You got rolled!</h1>
-	  <img class="center" src="../public_html/images/giphy.gif">
-  </body>
-  
-</html>
+<?php
+$salt = bin2hex(random_bytes(32));
+echo $salt . PHP_EOL;
+$hash = hash_pbkdf2("sha512", "password1", $salt, 262144);
+echo $hash . PHP_EOL;
