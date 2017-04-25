@@ -8,7 +8,7 @@
 
 namespace Edu\Cnm\DataDesign;
 require_once ("autoload.php");
-class Profile implements  \JsonSerializable (
+class Product implements  \JsonSerializable (
 	use Edu\Cnm\DataDesign\ValidateDate;
 	/*
 	 * id for this Profile; this is the primary key
