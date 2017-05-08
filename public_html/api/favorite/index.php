@@ -30,7 +30,7 @@ public function insert(\PDO $pdo): void {
 }
 
 /**
- * deletes this Favorite from mySQL
+ * Deletes this Favorite from mySQL
  *
  * @param \PDO $pdo PDO connection object
  * @throws \PDOException when mySQL related errors occur
